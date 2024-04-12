@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Calculator calculator = new Calculator();
-        int resultadoResta = calculator.restar(primero: 2, segundo: 1);
+        int resultadoResta = calculator.restar( primero: 2, segundo: 1);
         //TODO: feat: imprimir resultado
-        float resultadoDivision = calculator.dividir(primero: 2, segundo: 1);
+        float resultadoDivision = calculator.dividir( primero: 2, segundo: 1);
         //TODO: feat: imprimir resultado
     }
 }
